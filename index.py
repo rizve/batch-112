@@ -755,20 +755,24 @@ import newforlder.main
 
 # student = Student('Rahim')
 
-class Logger:
-    def __init__(self,filename):
-        self.file = open(filename,'w')
-        self.file.write("This is Our Test Case.")
-        print("Write Started")
+# class Logger:
+#     def __init__(self,filename):
+#         self.file = open(filename,'w')
+#         self.file.write("This is Our Test Case.")
+#         print("Write Started")
     
-    def log(self,masssage):
-        self.file.write(masssage + '\n')
+#     def log(self,masssage):
+#         self.file.write(masssage + '\n')
     
-    def __del__(self):
-        self.file.write('End' + '\n')
-        self.file.close()
-        print('File Has Been Closed')
+#     def __del__(self):
+#         self.file.write('End' + '\n')
+#         self.file.close()
+#         print('File Has Been Closed')
 
-loger = Logger('new_name.txt')
+# loger = Logger('new_name.txt')
 # loger.log('This is The Masages')
 # del loger
+
+
+for i in range(1,11):
+    print(i)
